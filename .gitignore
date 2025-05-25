@@ -1,0 +1,21 @@
+# myenv フォルダをGit管理対象外にする
+myenv
+
+# curl_templatesフォルダの全ファイルを除外
+curl_templates
+
+# ただし、sample.yml は登録する
+!/curl_templates/sample*.yml
+
+# Python関連の不要ファイル
+__pycache__
+.pyc
+.pyo
+
+# 仮想環境
+venv
+.env
+
+# エディタ・IDE関連ファイル
+.vscode
+.idea

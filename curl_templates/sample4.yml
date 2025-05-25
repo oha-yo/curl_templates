@@ -1,0 +1,8 @@
+api_name: サンプル４
+method: POST
+url: https://jsonplaceholder.typicode.com/posts
+headers:
+  Content-Type: application/json
+data: '{"title": "foo", "body": "bar", "userId": 1}'
+params:
+  dummy: test  # 無視される

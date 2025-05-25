@@ -1,0 +1,7 @@
+api_name: サンプル２
+method: GET
+url: https://httpbin.org/get
+headers:
+  Authorization: Bearer [token_issue_leadmin.yml]
+params:
+  userId: 12345
