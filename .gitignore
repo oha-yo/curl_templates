@@ -1,8 +1,8 @@
 # myenv フォルダをGit管理対象外にする
 myenv
 
-# curl_templatesフォルダの全ファイルを除外
-curl_templates
+# templatesフォルダの全ファイルを除外
+templates
 
 # ただし、sample.yml は登録する
 !/curl_templates/sample*.yml
