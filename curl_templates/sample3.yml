@@ -1,6 +1,0 @@
-api_name: サンプル３
-method: GET
-url: https://postman-echo.com/get
-params:
-  foo1: bar1
-  foo2: bar2
